@@ -1,0 +1,96 @@
+\doxysection{My\+Hash\+Set Class Reference}
+\hypertarget{classMyHashSet}{}\label{classMyHashSet}\index{MyHashSet@{MyHashSet}}
+
+
+Implementación de un conjunto (Hash\+Set) utilizando una lista enlazada.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMyHashSet_a946d37de5d6dd4773806324fa7d2f84b}{My\+Hash\+Set}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{classMyHashSet}{My\+Hash\+Set}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMyHashSet_a03a6296ca094cfb6e683eed2eeffeed1}{add}} (int key)
+\begin{DoxyCompactList}\small\item\em Añade un valor al conjunto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMyHashSet_a216c01c231b962f4a289a83b4cec5016}{remove}} (int key)
+\begin{DoxyCompactList}\small\item\em Elimina un valor del conjunto. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMyHashSet_aa3bcb357e5826a1770ef92cbbb061ee4}{contains}} (int key)
+\begin{DoxyCompactList}\small\item\em Verifica si un valor existe en el conjunto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementación de un conjunto (Hash\+Set) utilizando una lista enlazada. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMyHashSet_a946d37de5d6dd4773806324fa7d2f84b}\label{classMyHashSet_a946d37de5d6dd4773806324fa7d2f84b} 
+\index{MyHashSet@{MyHashSet}!MyHashSet@{MyHashSet}}
+\index{MyHashSet@{MyHashSet}!MyHashSet@{MyHashSet}}
+\doxysubsubsection{\texorpdfstring{MyHashSet()}{MyHashSet()}}
+{\footnotesize\ttfamily My\+Hash\+Set\+::\+My\+Hash\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor de la clase \doxylink{classMyHashSet}{My\+Hash\+Set}. 
+
+Inicializa la lista enlazada vacía. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMyHashSet_a03a6296ca094cfb6e683eed2eeffeed1}\label{classMyHashSet_a03a6296ca094cfb6e683eed2eeffeed1} 
+\index{MyHashSet@{MyHashSet}!add@{add}}
+\index{add@{add}!MyHashSet@{MyHashSet}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void My\+Hash\+Set\+::add (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Añade un valor al conjunto. 
+
+Si el valor ya existe, no se agrega.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Valor a agregar al conjunto. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMyHashSet_aa3bcb357e5826a1770ef92cbbb061ee4}\label{classMyHashSet_aa3bcb357e5826a1770ef92cbbb061ee4} 
+\index{MyHashSet@{MyHashSet}!contains@{contains}}
+\index{contains@{contains}!MyHashSet@{MyHashSet}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily bool My\+Hash\+Set\+::contains (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifica si un valor existe en el conjunto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Valor a verificar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true Si el valor existe en el conjunto. 
+
+false Si el valor no existe en el conjunto. 
+\end{DoxyReturn}
+\Hypertarget{classMyHashSet_a216c01c231b962f4a289a83b4cec5016}\label{classMyHashSet_a216c01c231b962f4a289a83b4cec5016} 
+\index{MyHashSet@{MyHashSet}!remove@{remove}}
+\index{remove@{remove}!MyHashSet@{MyHashSet}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void My\+Hash\+Set\+::remove (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Elimina un valor del conjunto. 
+
+Si el valor no existe, no realiza ninguna acción.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Valor a eliminar del conjunto. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+hash.\+cpp\end{DoxyCompactItemize}
